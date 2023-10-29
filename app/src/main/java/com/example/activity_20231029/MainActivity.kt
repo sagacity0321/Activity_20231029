@@ -19,6 +19,10 @@ class MainActivity : AppCompatActivity() {
 
         binding.btnMoveToThird.setOnClickListener{
             val myIntent = Intent(this, ThirdActivity::class.java)
+
+            val inputMessage = binding.etMessage.text.toString()
+
+            myIntent.putExtra("message", inputMessage)
             startActivity(myIntent)
         }
 
