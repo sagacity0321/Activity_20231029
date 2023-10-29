@@ -3,7 +3,6 @@ package com.example.activity_20231029
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import androidx.databinding.DataBindingComponent
 import androidx.databinding.DataBindingUtil
 import com.example.activity_20231029.databinding.ActivityMainBinding
 
