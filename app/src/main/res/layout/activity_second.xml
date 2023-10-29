@@ -21,16 +21,6 @@
         android:layout_height="wrap_content"
         android:id="@+id/btnReturn"
         android:text="이전 화면으로 복귀"/>
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/etMessage"
-        android:hint="메시지를 입력하세요"/>
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/btnMoveToThird"
-        android:text="3번 화면으로 이동"/>
 
 
 
