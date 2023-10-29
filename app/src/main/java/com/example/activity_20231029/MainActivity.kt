@@ -21,8 +21,12 @@ class MainActivity : AppCompatActivity() {
             val myIntent = Intent(this, ThirdActivity::class.java)
 
             val inputMessage = binding.etMessage.text.toString()
-
             myIntent.putExtra("message", inputMessage)
+
+            val inputNumber = binding.etNumber.text.toString().toInt()
+            myIntent.putExtra("number", inputNumber) // name 중복 안되면 몇 개든 전송 가능
+
+
             startActivity(myIntent)
         }
 

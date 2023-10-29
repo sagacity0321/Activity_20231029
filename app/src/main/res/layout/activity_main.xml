@@ -19,6 +19,11 @@
         android:layout_height="wrap_content"
         android:id="@+id/etMessage"
         android:hint="메시지를 입력하세요"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etNumber"
+        android:hint="숫자를 입력하세요"/>
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

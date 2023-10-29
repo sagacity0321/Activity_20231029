@@ -20,7 +20,10 @@ class ThirdActivity : AppCompatActivity() {
 
         val receivedMessage = intent.getStringExtra("message")
 
-        binding.txtMessage.text = receivedMessage
+        // int는 자바의 기본형 변수. 첨부 안 될때를 대비해 기본값 설정
+        val receivedNumber = intent.getIntExtra("number", -1)
+
+        binding.txtMessage.text = "전달 문구: ${receivedMessage}\n전달 숫자: ${receivedNumber}"
 
     }
 
